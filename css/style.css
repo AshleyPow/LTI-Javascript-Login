@@ -1,0 +1,35 @@
+* {
+  font-size: 18px;
+}
+.inp {
+  border: 2px solid blue;
+  width: 200px;
+  height: 32px;
+  margin-top: 4px;
+}
+.text {
+  margin-right: 16px;
+}
+.checmark {
+  width: 20px;
+  height: 20px;
+  border: 2px solid blue;
+}
+.container {
+  border: 2px solid blue;
+  padding: 16px;
+  width: 25%;
+}
+.btn {
+  border: 2px solid blue;
+  color: black;
+  background-color: #ffffff;
+  height: 32px;
+}
+.loginBtn {
+  display: flex;
+  justify-content: center;
+}
+.alert {
+  color: red;
+}

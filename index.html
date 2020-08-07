@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="text/javascript" src="/js/main.js"></script>
+</head>
+
+<body onload="checkCookie()">
+    <form>
+        <div class="container">
+            <div class="alert">
+                <h4 id="alertText"></h4>
+            </div>
+
+            <label class="text">Username</label>
+            <input class="inp" type="text" id="username">
+            <br>
+
+            <label class="text">Password</label>
+            <input class="inp" type="password" id="password">
+
+            <br>
+            <label>
+                <input type="checkbox" checked="checked" name="remember" id="remember"> Remember me
+                <span class="checkmark"></span>
+            </label>
+
+            <br>
+            <div class="loginBtn">
+                <button class="btn" type="button" onclick="login()">Login</button>
+            </div>
+
+        </div>
+    </form>
+</body>
+
+</html>
